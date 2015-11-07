@@ -1,0 +1,1 @@
+The base class of all created Google API proxy classes 

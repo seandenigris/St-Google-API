@@ -1,0 +1,3 @@
+api
+scopes
+	self subclassResponsibility

@@ -1,0 +1,4 @@
+accessing
+btnOkLabel
+	^ 'OK'
+	

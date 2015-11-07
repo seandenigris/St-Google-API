@@ -1,0 +1,3 @@
+authentication
+authenticationCredentialsFile: aFileName
+	authenticationCredentialsFile := aFileName

@@ -1,0 +1,4 @@
+accesing
+txtDiscoverUrl
+	^ discoverUrl.
+	

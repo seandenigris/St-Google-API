@@ -1,0 +1,3 @@
+accesing
+categoryListIndex
+	^ categoryListIndex

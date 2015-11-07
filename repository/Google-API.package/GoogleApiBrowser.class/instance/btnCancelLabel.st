@@ -1,0 +1,3 @@
+user interface
+btnCancelLabel
+	^ 'Cancel'

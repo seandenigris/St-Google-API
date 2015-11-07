@@ -1,0 +1,18 @@
+{
+	"category" : "Google-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "RichardPrinz 3/4/2015 17:06",
+	"instvars" : [
+		"id",
+		"session",
+		"registrationCredentialsFile",
+		"authenticationCredentialsFile",
+		"methodAction" ],
+	"name" : "GoogleApiProxy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

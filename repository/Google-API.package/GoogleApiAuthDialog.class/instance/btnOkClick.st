@@ -1,0 +1,3 @@
+accessing
+btnOkClick
+	window delete

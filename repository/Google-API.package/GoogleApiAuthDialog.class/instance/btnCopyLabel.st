@@ -1,0 +1,3 @@
+accessing
+btnCopyLabel
+	^ 'Copy URL'

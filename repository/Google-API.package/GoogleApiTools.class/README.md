@@ -1,0 +1,1 @@
+Some misc. functions used for creating Google API proxy classes 
