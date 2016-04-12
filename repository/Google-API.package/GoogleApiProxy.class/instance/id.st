@@ -1,5 +1,5 @@
 accessing
 id
-	id ifNil: [ id := 'default' ].
+	proxyId ifNil: [ proxyId := 'default' ].
 	
-	^ id
+	^ proxyId

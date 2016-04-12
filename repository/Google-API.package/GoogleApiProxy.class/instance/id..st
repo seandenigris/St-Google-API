@@ -1,3 +1,3 @@
 accessing
 id: aString
-	id := GoogleApiTools replaceInvalidPathChars: aString.
+	proxyId := GoogleApiTools replaceInvalidPathChars: aString.
