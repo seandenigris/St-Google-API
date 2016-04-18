@@ -51,7 +51,7 @@ createApi: apiDiscoveryObj inCategory: apiClassCategory
 	" apiName method "
 	src := 'apiName', String cr, String tab, '^ ''', apiName, ''''.
 	GoogleApiTools 
-		createMethodIn: proxy 
+		createMethodIn: proxy class
 		withSource: src.
 
 	" authentication scopes "

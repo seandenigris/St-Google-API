@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newWithId: aString
 	^ self new
 		id: aString;

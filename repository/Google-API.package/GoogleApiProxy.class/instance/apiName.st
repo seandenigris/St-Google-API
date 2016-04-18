@@ -1,3 +1,3 @@
 api
 apiName
-	self subclassResponsibility
+	^ self class apiName
