@@ -1,0 +1,16 @@
+{
+	"category" : "SocialNetwork-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SeanDeNigris 11/5/2015 22:33",
+	"instvars" : [
+		"color",
+		"target",
+		"label" ],
+	"name" : "HtmlButton",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "SocialNetwork-Specification",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SnMailChimpFormSpecification",
+	"pools" : [
+		 ],
+	"super" : "BabyPhexample",
+	"type" : "normal" }

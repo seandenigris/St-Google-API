@@ -1,0 +1,15 @@
+{
+	"category" : "SocialNetwork-Gmail",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Accounts" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nickname",
+		"email" ],
+	"name" : "GoogleAccount",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

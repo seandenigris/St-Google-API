@@ -1,0 +1,14 @@
+{
+	"category" : "SocialNetwork-Specification",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SnSubscriberSpecification",
+	"pools" : [
+		 ],
+	"super" : "BabyPhexample",
+	"type" : "normal" }

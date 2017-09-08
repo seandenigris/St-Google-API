@@ -1,0 +1,14 @@
+{
+	"category" : "SocialNetwork-Gmail",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "GoogleGmailApiUsersMessagesAttachments",
+	"pools" : [
+		 ],
+	"super" : "GoogleGmailApiUsersMessages",
+	"type" : "normal" }

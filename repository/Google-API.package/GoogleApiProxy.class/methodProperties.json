@@ -1,6 +1,8 @@
 {
 	"class" : {
 		"apiName" : "SeanDeNigris 4/17/2016 20:52",
+		"connections" : "SeanDeNigris 9/17/2016 15:30",
+		"connections:" : "SeanDeNigris 9/17/2016 15:30",
 		"newWithId:" : "RichardPrinz 5/22/2014 16:37" },
 	"instance" : {
 		"apiName" : "SeanDeNigris 4/17/2016 20:52",
@@ -17,6 +19,7 @@
 		"id" : "SeanDeNigris 11/7/2015 15:48",
 		"id:" : "SeanDeNigris 11/7/2015 15:48",
 		"initialize" : "SeanDeNigris 4/17/2016 20:11",
+		"makeRequestTo:usingMethod:query:body2:" : "SeanDeNigris 9/18/2016 00:44",
 		"makeRequestTo:usingMethod:query:body:" : "SeanDeNigris 11/7/2015 15:51",
 		"makeRequestTo:usingMethod:with:" : "SeanDeNigris 11/5/2015 15:12",
 		"register" : "RichardPrinz 5/20/2014 20:07",

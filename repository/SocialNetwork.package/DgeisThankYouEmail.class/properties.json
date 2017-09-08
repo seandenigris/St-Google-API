@@ -1,0 +1,14 @@
+{
+	"category" : "SocialNetwork-Private",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"SenderAccount" ],
+	"commentStamp" : "SeanDeNigris 11/8/2015 09:01",
+	"instvars" : [
+		"recipient" ],
+	"name" : "DgeisThankYouEmail",
+	"pools" : [
+		 ],
+	"super" : "MailMessage",
+	"type" : "normal" }

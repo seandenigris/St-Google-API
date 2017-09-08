@@ -1,0 +1,17 @@
+{
+	"category" : "SocialNetwork-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"email",
+		"name",
+		"firstName",
+		"lastName" ],
+	"name" : "Subscriber",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
