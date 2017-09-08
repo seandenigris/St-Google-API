@@ -3,7 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"AuthenticationCredentialsFolder" ],
+		"AuthenticationCredentialsFolder",
+		"Connections" ],
 	"commentStamp" : "RichardPrinz 3/4/2015 17:06",
 	"instvars" : [
 		"session",
