@@ -55,13 +55,15 @@ createApi: apiDiscoveryObj inCategory: apiClassCategory
 		withSource: src.
 
 	" authentication scopes "
+	
 	src := 'scopes', String cr, 
 		String tab, '^ OrderedCollection withAll: #(', String cr.
-	apiAuth := apiDefObj at: 'auth' ifAbsent: [ {} ].
+	apiAuth := apiDefObj at: 'auth' ifAbsent: [ {} ].	
+		apiAuth notEmpty ifTrue:[
 	apiAuth := apiAuth at: 'oauth2' ifAbsent: [ {} ].
 	apiAuth := apiAuth at: 'scopes' ifAbsent: [ {} ].
 	apiAuth keysDo: [ :k |
-		src := src, String tab, String tab, '''', k asString, '''', String cr ].
+		src := src, String tab, String tab, '''', k asString, '''', String cr ]].
 	src := src, String tab, ')', String cr.
 	GoogleApiTools 
 		createMethodIn: proxy 

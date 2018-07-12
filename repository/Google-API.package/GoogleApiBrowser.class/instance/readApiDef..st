@@ -36,4 +36,4 @@ readApiDef: aUrl
 			ver ifNotNil: [ w := w, ' (', ver, ')' ].
 			pref ifTrue: [ w := w, '*' ].
 			apiNameList add: w ] ].
-
+   self sortAPILists
