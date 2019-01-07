@@ -17,7 +17,7 @@ makeRequestTo: aUrl usingMethod: httpMethod with: aParamDictionary
 		request: req;
 		method: ( req method ).
 	httpMethod = #GET 
-	ifTrue:[ client request url queryAddAll: aParamDictionary ]
+	ifTrue:[ aParamDictionary ifNotNil:[client request url queryAddAll: aParamDictionary ]]
 	ifFalse:[
 	( aParamDictionary isNotNil and: [ aParamDictionary size > 0 ] ) ifTrue: [ | json part contentMime |
 		req entity: ZnMultiPartMixedEntity new.
