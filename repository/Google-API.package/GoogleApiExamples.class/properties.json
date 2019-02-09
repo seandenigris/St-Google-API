@@ -1,14 +1,11 @@
 {
-	"category" : "Google-API",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "RichardPrinz 3/4/2015 17:06",
-	"instvars" : [
-		 ],
-	"name" : "GoogleApiExamples",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "Google-API",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GoogleApiExamples",
+	"type" : "normal"
+}
