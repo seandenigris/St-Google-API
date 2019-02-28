@@ -1,10 +1,10 @@
 {
-	"category" : "Google-API",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "RichardPrinz 3/4/2015 17:05",
+	"super" : "ComposableMorph",
+	"category" : "Google-API",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"discoverUrl",
 		"apiListIndex",
@@ -14,9 +14,8 @@
 		"keyEventsDict",
 		"categoryListIndex",
 		"selectedCategory",
-		"window" ],
+		"window"
+	],
 	"name" : "GoogleApiBrowser",
-	"pools" : [
-		 ],
-	"super" : "ComposableMorph",
-	"type" : "normal" }
+	"type" : "normal"
+}

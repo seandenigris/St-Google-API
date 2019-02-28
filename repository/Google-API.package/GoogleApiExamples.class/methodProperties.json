@@ -1,7 +1,8 @@
 {
+	"instance" : { },
 	"class" : {
-		"addTestFileToGoogleDrive" : "SeanDeNigris 11/5/2015 13:47",
+		"reCompile" : "RichardPrinz 3/11/2015 15:36",
 		"listGoogleDriveFiles" : "RichardPrinz 3/19/2015 17:21",
-		"reCompile" : "RichardPrinz 3/11/2015 15:36" },
-	"instance" : {
-		 } }
+		"addTestFileToGoogleDrive" : "SeanDeNigris 11/5/2015 13:47"
+	}
+}
