@@ -1,16 +1,15 @@
 {
-	"category" : "Google-API",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "RichardPrinz 3/4/2015 17:04",
+	"super" : "Object",
+	"category" : "Google-API",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"authUrl",
 		"window",
-		"code" ],
+		"code"
+	],
 	"name" : "GoogleApiAuthDialog",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

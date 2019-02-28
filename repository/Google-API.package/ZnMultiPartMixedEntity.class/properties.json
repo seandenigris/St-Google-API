@@ -1,14 +1,11 @@
 {
-	"category" : "Google-API",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "RichardPrinz 3/4/2015 17:20",
-	"instvars" : [
-		 ],
-	"name" : "ZnMultiPartMixedEntity",
-	"pools" : [
-		 ],
 	"super" : "ZnMultiPartFormDataEntity",
-	"type" : "normal" }
+	"category" : "Google-API",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ZnMultiPartMixedEntity",
+	"type" : "normal"
+}
