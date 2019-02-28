@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Google-API",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"APIList",
+		"APINameList"
+	],
+	"instvars" : [ ],
+	"name" : "GoogleApiList",
+	"type" : "normal"
+}
