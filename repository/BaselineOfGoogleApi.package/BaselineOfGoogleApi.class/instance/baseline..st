@@ -12,7 +12,7 @@ baseline: spec
 		spec project: 'Neo-JSON-Core' with: [ 
 			spec 
 				className: 'ConfigurationOfNeoJSON';
-				repository: 'https://github.com/svenvc/NeoJSON/tree/master/repository';
+				repository: 'https://github.com/svenvc/NeoJSON/repository';
 				versionString: '17' ].
 		spec 
 			package: 'Google-API' with: [ spec requires: #('ZincHTTPComponents' 'Neo-JSON-Core') ] ]
