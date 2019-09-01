@@ -18,16 +18,16 @@ selectedApiDescription
 		apiNameList add: w ].
 	
 	txt := title.
-	( txt size > 0) ifTrue: [ txt := txt, String cr, String cr ].
+	txt isEmpty ifTrue: [ txt := txt, String cr, String cr ].
 	
-	( desc size > 0 ) ifTrue: [
+	desc isEmpty ifTrue: [
 		txt := txt, desc ].
-	( txt size > 0) ifTrue: [ txt := txt, String cr, String cr ].
+	txt isEmpty  ifTrue: [ txt := txt, String cr, String cr ].
 	
 	txt := txt, 'Preferred: ', ( pref ifTrue: [ 'Yes' ] ifFalse: [ 'No' ] ).
-	( txt size > 0) ifTrue: [ txt := txt, String cr, String cr ].
+	txt isEmpty  ifTrue: [ txt := txt, String cr, String cr ].
 	
-	(docLnk size > 0 ) ifTrue: [
+	docLnk isEmpty  ifTrue: [
 		txt := txt, 'Link: ', docLnk ].
 	
 	
