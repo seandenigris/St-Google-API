@@ -6,7 +6,7 @@ baseline: spec
 		spec baseline: 'ZincHTTPComponents' with: [
 				spec 
 					repository: 'github://svenvc/zinc';
-					loads: #('Core' 'SSO-OAuth2') ].
+					loads: #('SSO-OAuth2') ].
 		spec baseline: 'NeoJSON' with: [
 				spec 
 					repository: 'github://svenvc/NeoJSON';
