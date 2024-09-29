@@ -1,17 +1,13 @@
 registration
 registrationCredentials
-	|  fn cfgJson client_id client_secret redirect_url |
+	|  file cfgJson client_id client_secret redirect_url |
 
 	" reads a json file with registration credentials. use Google api console to create one "
 
-	fn := self registrationCredentialsFile asFileReference.
-	fn exists ifFalse: [ self error: 'API registration credentials file (', fn fullName, ') missing.' ].	
+	file := self registrationCredentialsFile asFileReference.
+	file exists ifFalse: [ self error: 'API registration credentials file (', file fullName, ') missing.' ].	
 	
-	cfgJson := ( fn readStream ) contents.	
-	cfgJson := NeoJSONReader fromString: cfgJson.
-	cfgJson := cfgJson at: 'installed' ifAbsent: [ {} ].
-	
-	client_id := cfgJson at: 'client_id' ifAbsent: [ '' ].
+	cfgJson := NeoJSONReader fromString: file contents.
 	client_secret := cfgJson at: 'client_secret' ifAbsent: [ '' ].
 	redirect_url := cfgJson at: 'redirect_uris' ifAbsent: [ #() ].
 	redirect_url := redirect_url at: 1 ifAbsent: [ '' ].

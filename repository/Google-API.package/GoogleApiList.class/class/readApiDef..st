@@ -22,21 +22,11 @@ readApiDef: aUrl
 				title: 'Unable to discover API'.
 			^ nil ].
 	apiDefObj := NeoJSONReader fromString: apiDef entity string.
-	APIList := apiDefObj at: 'items' ifAbsent: [ Array new ].
-	(APIList isKindOf: Array)
-		ifFalse: [ Array new ].
-	APINameList := OrderedCollection new.
-	APIList
-		do: [ :i | 
-			| title ver pref |
-			title := i at: 'title' ifAbsent: [ nil ].
-			ver := i at: 'version' ifAbsent: [ nil ].
-			pref := i at: 'preferred' ifAbsent: [ false ].
-			title
-				ifNotNil: [ | w |
-					w := title.
-					ver ifNotNil: [ w := w , ' (' , ver , ')' ].
-					pref
-						ifTrue: [ w := w , '*' ].
-					APINameList add: w ] ].
-	self sortAPILists
+	
+	APIList := apiDefObj 
+		at: 'items' 
+		ifPresent: [ :dicts |
+			dicts collect: [ :dict |
+				GoogleApi fromDictionary: dict ] ]
+		ifAbsent: [ Array new ].
+	APIList sort: #title ascending.
