@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"example1" : "SeanDeNigris 4/17/2016 21:06" },
+	"instance" : {
+		"create:" : "",
+		"create:options:" : "SeanDeNigris 11/7/2015 12:52",
+		"create:query:body:" : "SeanDeNigris 11/7/2015 15:49",
+		"delete:userId:" : "",
+		"get:userId:" : "",
+		"get:userId:options:" : "",
+		"list:" : "",
+		"list:options:" : "",
+		"send:" : "",
+		"update:userId:" : "" } }

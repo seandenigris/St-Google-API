@@ -1,0 +1,18 @@
+{
+	"category" : "SocialNetwork-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"u",
+		"id",
+		"email",
+		"firstName",
+		"lastName" ],
+	"name" : "MailChimpForm",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

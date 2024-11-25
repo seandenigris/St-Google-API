@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"delete:userId:" : "",
+		"get:userId:" : "",
+		"get:userId:options:" : "",
+		"import:" : "",
+		"import:options:" : "",
+		"insert:" : "",
+		"insert:options:" : "",
+		"list:" : "",
+		"list:options:" : "",
+		"modify:userId:" : "",
+		"send:" : "",
+		"send:options:" : "SeanDeNigris 11/7/2015 12:26",
+		"send:raw:" : "SeanDeNigris 11/5/2015 15:21",
+		"trash:userId:" : "",
+		"untrash:userId:" : "" } }

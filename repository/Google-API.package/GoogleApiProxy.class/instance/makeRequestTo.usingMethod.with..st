@@ -16,15 +16,17 @@ makeRequestTo: aUrl usingMethod: httpMethod with: aParamDictionary
 	client
 		request: req;
 		method: ( req method ).
-		
+	httpMethod = #GET 
+	ifTrue:[ aParamDictionary ifNotNil:[client request url queryAddAll: aParamDictionary ]]
+	ifFalse:[
 	( aParamDictionary isNotNil and: [ aParamDictionary size > 0 ] ) ifTrue: [ | json part contentMime |
 		req entity: ZnMultiPartMixedEntity new.
 		client request url queryAt: 'uploadType' add: 'multipart'.
 		
 		aParamDictionary at: 'CONTENT' ifPresent: [ :cont |
-		aParamDictionary removeKey: 'CONTENT'.
-		content := (Base64MimeConverter mimeEncode: cont readStream ) contents.		
-		contentMime := aParamDictionary at: 'mimeType' ifAbsent: [ 'application/octet-stream' ] ].		
+			aParamDictionary removeKey: 'CONTENT'.
+			content := (Base64MimeConverter mimeEncode: cont readStream ) contents.		
+			contentMime := aParamDictionary at: 'mimeType' ifAbsent: [ 'application/octet-stream' ] ].		
 		json := NeoJSONWriter toString: aParamDictionary.
 		
 		json ifNotNil: [
@@ -44,16 +46,9 @@ makeRequestTo: aUrl usingMethod: httpMethod with: aParamDictionary
 				yourself ).
 			part headers at: 'Content-Transfer-Encoding' put: 'base64'.
 			req entity addPart: ( part ) ].
-		
-		"aParamDictionary keysAndValuesDo: [ :key :val |
-			z addPart: (ZnMimePart fieldName: key value: val).
-			]."
-		].
+	
+		]].
 
-
-"st := WriteStream on: ( String new ).
-client request writeOn: st.
-st inspect."
 
 	
 	res := client
@@ -83,5 +78,3 @@ st inspect."
 		content := NeoJSONReader fromString: res ].
 		
 	^ { client response. content. }
-	
-

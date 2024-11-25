@@ -1,0 +1,14 @@
+{
+	"category" : "SocialNetwork-Private",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SeanDeNigris 11/7/2015 11:01",
+	"instvars" : [
+		 ],
+	"name" : "EmailExtractor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

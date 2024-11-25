@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"delete:userId:" : "",
+		"get:userId:" : "",
+		"get:userId:options:" : "",
+		"list:" : "",
+		"list:options:" : "",
+		"modify:userId:" : "",
+		"trash:userId:" : "",
+		"untrash:userId:" : "" } }

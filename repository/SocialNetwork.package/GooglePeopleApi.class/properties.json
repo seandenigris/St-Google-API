@@ -1,0 +1,14 @@
+{
+	"category" : "SocialNetwork-GooglePeople",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "GooglePeopleApi",
+	"pools" : [
+		 ],
+	"super" : "GoogleApiProxy",
+	"type" : "normal" }

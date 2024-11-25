@@ -1,0 +1,3 @@
+as yet unclassified
+mailChimpHtmlPart
+	^ self mailChimpHtmlQuotedPrintable decodeQuotedPrintable

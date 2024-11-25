@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"create:" : "",
+		"delete:userId:" : "",
+		"get:userId:" : "",
+		"list:" : "",
+		"patch:userId:" : "",
+		"update:userId:" : "" } }

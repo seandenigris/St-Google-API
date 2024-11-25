@@ -1,0 +1,14 @@
+{
+	"category" : "SocialNetwork-Gmail",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "GoogleGmailApiUsersMessages",
+	"pools" : [
+		 ],
+	"super" : "GoogleGmailApiUsers",
+	"type" : "normal" }

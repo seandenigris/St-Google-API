@@ -1,0 +1,14 @@
+{
+	"category" : "SocialNetwork-GoogleContacts",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GoogleContactsApi",
+	"pools" : [
+		 ],
+	"super" : "GoogleApiProxy",
+	"type" : "normal" }
